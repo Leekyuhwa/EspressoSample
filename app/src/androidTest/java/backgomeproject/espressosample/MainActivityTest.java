@@ -30,10 +30,10 @@ public class MainActivityTest extends TestCase {
 
     @Test
     public void EditText에_Text가_원하는_입력값이_써지는지_보는_테스트() {
-        onView(withId(R.id.inputField)).perform(typeText("a"), closeSoftKeyboard());
-        onView(withId(R.id.inputField)).check(matches(withText("a")));
+        onView(withId(R.id.inputField)).perform(typeText("Test"), closeSoftKeyboard());
+        onView(withId(R.id.inputField)).check(matches(withText("Test")));
         onView(withId(R.id.changeText)).perform(click());
-        onView(withId(R.id.inputField)).check(matches(withText("Lalala")));
+        onView(withId(R.id.inputField)).check(matches(withText("LALALA")));
     }
 
     @Test
