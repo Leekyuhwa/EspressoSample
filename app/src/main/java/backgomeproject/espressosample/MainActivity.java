@@ -9,7 +9,6 @@ import android.widget.EditText;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
-
 public class MainActivity extends Activity {
 
     private static final String INTENT_KEY = "input";

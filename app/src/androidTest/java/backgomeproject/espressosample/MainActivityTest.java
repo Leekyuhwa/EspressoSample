@@ -19,9 +19,6 @@ import org.junit.runner.RunWith;
 import android.support.test.rule.ActivityTestRule;
 import android.support.test.runner.AndroidJUnit4;
 
-/**
- * Created by coupang on 2015. 9. 2..
- */
 @RunWith(AndroidJUnit4.class)
 public class MainActivityTest extends TestCase {
 
